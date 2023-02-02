@@ -1,0 +1,24 @@
+header{
+    background-color: antiquewhite;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container{
+    width:1200px; 
+}
+
+.lnb a{ display: block; padding: 10px; margin: 0  50px;}
+@media screen and (max-width:1250px){
+    .lnb a{ display: block; padding: 10px; margin: 0  20px;}
+}
+@media screen and (max-width:1000px){
+    .lnb a{ display: block; padding: 10px; margin: 0;}
+}
+@media screen and (max-width:600px){
+    .lnb a{ display: block; padding: 10px; margin: 0;}
+    .lnb{ display: none;}
+}
+
